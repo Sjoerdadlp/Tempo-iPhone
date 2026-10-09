@@ -1,0 +1,1 @@
+function e(e=[]){let t=0;for(let n of e){let e=/^new note (\d+)$/i.exec(String(n?.title||``).trim());e&&(t=Math.max(t,+e[1]))}return`New Note ${t+1}`}export{e as t};
