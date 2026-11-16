@@ -1,0 +1,1 @@
+var e=e=>[`title`,`icon`].includes(e?.planHead)?e.planHead:`over`,t=t=>e(t)===`title`?[`ink`,`sheet`].includes(t?.planRule)?t.planRule:`hairline`:`ink`,n=e=>[`box`,`line`].includes(e?.writeLook)?e.writeLook:`field`,r=[`legacy`,`more`,`band`],i=e=>r.includes(e?.writeAs)?e.writeAs:e?.writeMore?`more`:`legacy`;export{n as i,t as n,i as r,e as t};
