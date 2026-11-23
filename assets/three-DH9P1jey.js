@@ -1,0 +1,1 @@
+import{_r as e}from"./store-M6p-HM1T.js";var t=t=>e(t).glass,n=e=>e?.g4Side===`right`,r=(e,t)=>t===`/todo`||n(e)?`right`:`left`,i=`calc(50% - 10px)`,a=`min(560px, 50%)`;export{t as i,i as n,r,a as t};
