@@ -1,1 +1,0 @@
-import{l as e,n as t}from"./noEnd--11LcqJl.js";var n=[`start`,`time`,`noEnd`,`head`],r=e=>n.includes(e?.arcLaps)?e.arcLaps:`start`,i=(e,t)=>e===`start`||e===`noEnd`&&!!t,a=(n,r,i,a)=>r?e(Math.max(0,(n||0)-a*t)):Math.max(0,i-a),o=e=>({from:Math.max(.03,e>0?24/e:0),step:Math.max(.022,e>0?11/e:0)}),s=e=>e>0?e*7+7:0;export{o as a,a as i,i as n,s as r,r as t};
