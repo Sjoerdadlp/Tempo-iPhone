@@ -1,1 +1,0 @@
-var e=[`b2`,`b`,`b1`,`c1`],t=t=>t?.goalsPage===`now`?null:e.includes(t?.goalsPage)?t.goalsPage:`b2`,n=e=>[`b1`,`b2`,`c1`].includes(e);export{n,t};
