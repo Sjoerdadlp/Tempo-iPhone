@@ -1,0 +1,1 @@
+function e(e,t=!1){return!t&&!!e&&(e.steps||[]).some(e=>e.note&&String(e.text||``).trim())}export{e as t};
